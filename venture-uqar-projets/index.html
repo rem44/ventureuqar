@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets Universitaires - Venture Carpets x UQAR</title>
+    <meta name="description" content="Projets d'intelligence artificielle proposés par Venture Carpets aux étudiants de l'UQAR">
+
+    <!-- Google Fonts - Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <h2>Venture <span class="highlight">x</span> UQAR</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                    <li><a href="#projets" class="nav-link">Projets</a></li>
+                    <li><a href="#details" class="nav-link">Détails</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+              <div class="section-header"><img class="venture-logo" src="assets/logo-venture-white.svg"></div>
+                <h1 class="hero-title">
+                    Projets d'Intelligence Artificielle
+                    </br>
+                    <span class="highlight">Venture x UQAR</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Pionniers de l'innovation technologique, nous proposons des projets concrets d'IA
+                    qui allient expertise industrielle et excellence académique.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>2</h3>
+                        <p>Projets disponibles</p>
+                    </div>
+                    <div class="stat">
+                        <h3>12</h3>
+                        <p>Semaines de projet</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Expérience pratique</p>
+                    </div>
+                </div>
+                <a href="#projets" class="cta-button">
+                    Découvrir les projets
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aperçu des Projets -->
+    <section id="projets" class="projects-overview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Aperçu des Projets</h2>
+                <p>Deux opportunités exceptionnelles pour développer vos compétences en IA</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Projet 1 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>MacVision AI</h3>
+                    <p class="project-subtitle">Système de détection anomalique pour Machines à Coudre Automatisées</p>
+                    <ul class="project-highlights">
+                        <li><i class="fas fa-check"></i> Vision par ordinateur en temps réel</li>
+                        <li><i class="fas fa-check"></i> Apprentissage non supervisé</li>
+                        <li><i class="fas fa-check"></i> Interface C# Windows Forms</li>
+                        <li><i class="fas fa-check"></i> Environnement industriel</li>
+                    </ul>
+                    <div class="project-meta">
+                        <span class="duration"><i class="fas fa-clock"></i> 12 semaines</span>
+                        <span class="tech"><i class="fas fa-cog"></i> IA + Vision</span>
+                    </div>
+                    <a href="#macvision" class="project-button">Voir les détails</a>
+                </div>
+
+                <!-- Projet 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-icon">
+                        <i class="fas fa-presentation"></i>
+                    </div>
+                    <h3>PrésenGen</h3>
+                    <p class="project-subtitle">Assistant IA de création de présentations commerciales personnalisées</p>
+                    <ul class="project-highlights">
+                        <li><i class="fas fa-check"></i> Intelligence artificielle générative</li>
+                        <li><i class="fas fa-check"></i> Automatisation de contenu</li>
+                        <li><i class="fas fa-check"></i> Interface utilisateur intuitive</li>
+                        <li><i class="fas fa-check"></i> Impact commercial direct</li>
+                    </ul>
+                    <div class="project-meta">
+                        <span class="duration"><i class="fas fa-clock"></i> 16 semaines</span>
+                        <span class="tech"><i class="fas fa-robot"></i> IA Générative</span>
+                    </div>
+                    <a href="#presentgen" class="project-button">Voir les détails</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Détails des Projets -->
+    <section id="details" class="project-details">
+        <div class="container">
+            <div class="section-header">
+                <h2>Détails des Projets</h2>
+                <p>Explorez en profondeur chaque opportunité de projet</p>
+            </div>
+
+            <!-- MacVision AI Détails -->
+            <div id="macvision" class="project-detail-card">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h3><i class="fas fa-eye"></i> MacVision AI</h3>
+                        <p>Système de détection anomalique pour Machines à Coudre Automatisées</p>
+                    </div>
+                    <div class="project-apply">
+                        <button onclick="applyProject('macvision')" class="apply-button">
+                            <i class="fas fa-envelope"></i> Postuler pour ce projet
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <div class="project-context">
+                        <h4><i class="fas fa-info-circle"></i> Contexte</h4>
+                        <p>Les lignes de production de carpettes touffetées sont équipées de Machines à Coudre Automatisées (MAC) qui nécessitent une surveillance constante pour maintenir une qualité optimale. Actuellement, chacune des 3 MAC est équipée de 8 caméras qui ne sont pas pleinement exploitées pour la détection proactive de défauts.</p>
+                    </div>
+
+                    <div class="project-objective">
+                        <h4><i class="fas fa-target"></i> Objectif</h4>
+                        <p>Développer un système de détection d'anomalies exploitant les caméras existantes pour identifier en temps réel :</p>
+                        <ul>
+                            <li><strong>Défauts de maintenance :</strong> désalignement des têtes, bouches d'aspiration bouchées</li>
+                            <li><strong>Défauts de qualité :</strong> mauvaise cautérisation, défauts sur l'endos et la face</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-skills">
+                        <h4><i class="fas fa-graduation-cap"></i> Compétences Développées</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag">Intelligence artificielle</span>
+                            <span class="skill-tag">Vision par ordinateur</span>
+                            <span class="skill-tag">C# Windows Forms</span>
+                            <span class="skill-tag">Apprentissage non supervisé</span>
+                            <span class="skill-tag">Traitement d'images</span>
+                            <span class="skill-tag">Systèmes temps réel</span>
+                        </div>
+                    </div>
+
+                    <div class="project-phases">
+                        <h4><i class="fas fa-calendar-alt"></i> Phases du Projet (12 semaines)</h4>
+                        <div class="phases-timeline">
+                            <div class="phase">
+                                <span class="phase-duration">2 sem</span>
+                                <h5>Analyse et configuration</h5>
+                                <p>Étude du système existant, environnement de développement</p>
+                            </div>
+                            <div class="phase">
+                                <span class="phase-duration">2 sem</span>
+                                <h5>Acquisition des données</h5>
+                                <p>Module de capture, collection d'échantillons, prétraitement</p>
+                            </div>
+                            <div class="phase">
+                                <span class="phase-duration">3 sem</span>
+                                <h5>Développement du modèle</h5>
+                                <p>Autoencodeurs, One-class SVM, filtres spécialisés</p>
+                            </div>
+                            <div class="phase">
+                                <span class="phase-duration">2 sem</span>
+                                <h5>Interface utilisateur</h5>
+                                <p>Windows Forms C#, système de notification</p>
+                            </div>
+                            <div class="phase">
+                                <span class="phase-duration">2 sem</span>
+                                <h5>Intégration et tests</h5>
+                                <p>Tests en production, optimisation</p>
+                            </div>
+                            <div class="phase">
+                                <span class="phase-duration">1 sem</span>
+                                <h5>Finalisation</h5>
+                                <p>Formation, documentation technique</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-deliverables">
+                        <h4><i class="fas fa-check-circle"></i> Livrables</h4>
+                        <ul>
+                            <li>Application Windows Forms en C# pour la détection de défauts</li>
+                            <li>Modèles d'IA entraînés pour chaque type de défaut</li>
+                            <li>Système d'alerte en temps réel</li>
+                            <li>Documentation technique complète</li>
+                            <li>Code source documenté et structuré</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PrésenGen Détails -->
+            <div id="presentgen" class="project-detail-card">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h3><i class="fas fa-presentation"></i> PrésenGen</h3>
+                        <p>Assistant IA de création de présentations commerciales personnalisées</p>
+                    </div>
+                    <div class="project-apply">
+                        <button onclick="applyProject('presentgen')" class="apply-button">
+                            <i class="fas fa-envelope"></i> Postuler pour ce projet
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <div class="project-context">
+                        <h4><i class="fas fa-info-circle"></i> Contexte</h4>
+                        <p>Les représentants commerciaux consacrent un temps considérable à préparer des présentations personnalisées pour les clients potentiels, ce qui réduit leur disponibilité pour les interactions directes avec les clients.</p>
+                    </div>
+
+                    <div class="project-objective">
+                        <h4><i class="fas fa-target"></i> Objectif</h4>
+                        <p>Développer un système intelligent capable de générer automatiquement des présentations commerciales personnalisées en fonction du profil client, incluant les designs de tapis appropriés, les formats disponibles, et adaptant l'argumentaire aux objections typiques du secteur du client.</p>
+                    </div>
+
+                    <div class="project-skills">
+                        <h4><i class="fas fa-graduation-cap"></i> Compétences Développées</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag">IA générative</span>
+                            <span class="skill-tag">Traitement de données</span>
+                            <span class="skill-tag">UI/UX Design</span>
+                            <span class="skill-tag">Automatisation</span>
+                            <span class="skill-tag">Bases de données</span>
+                            <span class="skill-tag">Intégration bureautique</span>
+                        </div>
+                    </div>
+
+                    <div class="project-phases">
+                        <h4><i class="fas fa-calendar-alt"></i> Phases du Projet (16 semaines)</h4>
+                        <div class="phases-timeline">
+                            <div class="phase">
+                                <span class="phase-duration">3 sem</span>
+                                <h5>Analyse des besoins</h5>
+                                <p>Entretiens avec les représentants, analyse des présentations</p>
+                            </div>
+                            <div class="phase">
+                                <span class="phase-duration">4 sem</span>
+                                <h5>Base de données</h5>
+                                <p>Structuration des données produits, classification clients</p>
+                            </div>
+                            <div class="phase">
+                                <span class="phase-duration">4 sem</span>
+                                <h5>Moteur de génération</h5>
+                                <p>Algorithme de sélection, système de génération</p>
+                            </div>
+                            <div class="phase">
+                                <span class="phase-duration">3 sem</span>
+                                <h5>Interface et tests</h5>
+                                <p>Interface intuitive, tests avec cas réels</p>
+                            </div>
+                            <div class="phase">
+                                <span class="phase-duration">2 sem</span>
+                                <h5>Déploiement</h5>
+                                <p>Optimisation, formation des représentants</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-deliverables">
+                        <h4><i class="fas fa-check-circle"></i> Livrables</h4>
+                        <ul>
+                            <li>Application fonctionnelle de génération de présentations</li>
+                            <li>Base de données structurée de produits et arguments commerciaux</li>
+                            <li>Guide utilisateur complet</li>
+                            <li>Documentation technique</li>
+                            <li>Formation des utilisateurs finaux</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Comment Postuler</h2>
+                <p>Contactez directement le professeur responsable du cours</p>
+            </div>
+
+            <div class="contact-card">
+                <div class="professor-info">
+                    <div class="professor-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="professor-details">
+                        <h3>Prof. Yacine Yaddaden</h3>
+                        <p class="professor-title">Professeur en Intelligence Artificielle</p>
+                        <p class="professor-dept">Département d'informatique et de mathématique - UQAR</p>
+
+                        <div class="professor-expertise">
+                            <h4>Expertise :</h4>
+                            <div class="expertise-tags">
+                                <span>Apprentissage profond</span>
+                                <span>Vision par ordinateur</span>
+                                <span>Reconnaissance de forme</span>
+                                <span>Intelligence ambiante</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>yacine_yaddaden@uqar.ca</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-method">
+                        <i class="fas fa-university"></i>
+                        <div>
+                            <h4>Cours</h4>
+                            <p><a href="https://www.uqar.ca/cours/intelligence-artificielle-2/" target="_blank">Intelligence Artificielle INF38215
+</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Venture Carpets x UQAR</h3>
+                    <p>Partenariat académique-industriel pour l'innovation en IA</p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Projets</h4>
+                        <ul>
+                            <li><a href="#macvision">MacVision AI</a></li>
+                            <li><a href="#presentgen">PrésenGen</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>UQAR</h4>
+                        <ul>
+                            <li><a href="https://www.uqar.ca" target="_blank">Site officiel</a></li>
+                            <li><a href="https://www.uqar.ca/cours/intelligence-artificielle-2/" target="_blank">Cours IA</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Venture Carpets. Fait par Venture avec l'aide de l'IA.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
